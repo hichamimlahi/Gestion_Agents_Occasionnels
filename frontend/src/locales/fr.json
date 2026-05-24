@@ -1,0 +1,563 @@
+﻿{
+  "brand": {
+    "title": "Gestion des dossiers des agents occasionnels",
+    "commune": "Commune de Larache"
+  },
+  "language": {
+    "label": "Langue",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "nav": {
+    "home": "Accueil",
+    "apply": "Déposer une demande",
+    "dashboard": "Tableau de bord",
+    "profile": "Mon profil",
+    "rh_queue": "File RH",
+    "rh_admin_documents": "Documents administratifs",
+    "president_pending": "Dossiers en attente",
+    "president_staff": "Gestion RH",
+    "login": "Se connecter",
+    "register": "Créer un compte",
+    "logout": "Se déconnecter"
+  },
+  "footer": {
+    "address_title": "Adresse",
+    "address_line": "Avenue IRIS, AL Maghreb AL Jadid, Larache.",
+    "maps": "Voir sur Google Maps"
+  },
+  "a11y": {
+    "commune_logo": "Logo de la Commune de Larache",
+    "commune_logo_clean": "Logo officiel de la Commune de Larache"
+  },
+  "common": {
+    "loading": "Chargement",
+    "submit": "Valider",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "processing": "Traitement",
+    "not_available": "-",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "understood": "Compris",
+    "generic_error": "Une erreur est survenue.",
+    "generic_info": "Information mise à jour."
+  },
+  "home": {
+    "hero": {
+      "title": "Plateforme officielle de gestion des dossiers des agents occasionnels",
+      "subtitle": "Suivi des demandes, validation RH et décision Président dans une interface moderne et sécurisée."
+    },
+    "cta": {
+      "apply": "Déposer une demande",
+      "login": "Se connecter"
+    },
+    "steps": {
+      "title": "Comment ça marche",
+      "items": [
+        "Création du compte",
+        "Compléter le dossier PDF",
+        "Validation RH",
+        "Décision du Président",
+        "Génération des documents administratifs"
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": [
+        {
+          "q": "Qui peut déposer une demande ?",
+          "a": "Toute personne disposant d'un compte vérifié."
+        },
+        {
+          "q": "Quels formats sont acceptés ?",
+          "a": "Uniquement les fichiers PDF pour tous les documents."
+        },
+        {
+          "q": "Comment est calculé le salaire ?",
+          "a": "Calcul fixe: BRUT = jours × 97,44 DH, RCAR = jours × 5,85 DH, NET = jours × 91,59 DH."
+        }
+      ]
+    },
+    "map": {
+      "title": "Emplacement de la Commune de Larache",
+      "text": "Consultez l'emplacement administratif officiel sur la carte.",
+      "open_link": "Ouvrir dans Google Maps",
+      "iframe_title": "Commune de Larache - Google Maps"
+    },
+    "admin": {
+      "title": "Informations administratives",
+      "period_info": "Période indicative {{start}} - {{end}} (environ {{days}} jours travaillés après exclusion des 2 jours hebdomadaires)."
+    },
+    "legal_documents": {
+      "title": "Téléchargement des documents juridiques",
+      "subtitle": "Téléchargez les versions disponibles en français et en arabe.",
+      "loi_113_14": "Loi 113.14",
+      "bulletin_officiel": "Bulletin officiel",
+      "fp31": "Fonction Publique",
+      "languages": {
+        "fr": "Français",
+        "ar": "Arabe"
+      },
+      "pending_text": "Choisissez la version à télécharger.",
+      "download_lang": "Télécharger ({{lang}})",
+      "download_placeholder": "Bientôt disponible",
+      "download_placeholder_lang": "{{lang}} - Bientôt disponible"
+    }
+  },
+  "application_form": {
+    "title": "Dépôt de demande occasionnel",
+    "intro": "Remplissez les informations de la demande puis ajoutez vos documents en PDF. Le permis est optionnel.",
+    "request_section_title": "Informations de la demande",
+    "documents_section_title": "Documents à joindre (PDF)",
+    "fields": {
+      "function": "Fonction",
+      "period": "Période"
+    },
+    "placeholders": {
+      "function": "Ex: Agent entretien, jardinage, accueil...",
+      "period": "Ex: Été 2026, Trimestre 3..."
+    },
+    "notes": {
+      "admin_sets_dates": "Les dates début/fin sont fixées par l'administration RH après validation."
+    },
+    "periods": {
+      "select_placeholder": "Sélectionner une période 2026",
+      "selected_summary": "Période sélectionnée: {{start}} - {{end}} | {{days}} jours ouvrables.",
+      "period_result": "Période {{start}} - {{end}} : {{days}} jours ouvrables",
+      "removed_holidays_title": "Jours fériés supprimés :",
+      "no_removed_holidays": "Aucun jour férié supprimé.",
+      "weekend_overlap_note": "Fériés tombant le week-end (déjà exclus): {{holidays}}.",
+      "labels": {
+        "p1": "Période 1 : Janvier, Février, Mars",
+        "p2": "Période 2 : Avril, Mai, Juin",
+        "p3": "Période 3 : Juillet, Août, Septembre",
+        "p4": "Période 4 : Octobre, Novembre, Décembre"
+      },
+      "holidays": {
+        "new_year": "Jour de l'An",
+        "amazigh_new_year": "Nouvel An Amazigh",
+        "eid_fitr_day_1": "Eid Al-Fitr (Jour 1)",
+        "eid_fitr_day_2": "Eid Al-Fitr (Jour 2)",
+        "labour_day": "Fête du Travail",
+        "eid_adha_day_1": "Eid Al-Adha (Jour 1)",
+        "eid_adha_day_2": "Eid Al-Adha (Jour 2)",
+        "hijri_new_year": "Nouvel An de l'Hégire",
+        "throne_day": "Fête du Trône",
+        "oued_eddahab": "Oued Ed-Dahab",
+        "king_revolution": "Révolution du Roi et du Peuple",
+        "youth_day": "Fête de la Jeunesse",
+        "mawlid": "Aïd Al-Mawlid",
+        "green_march": "Marche Verte",
+        "independence_day": "Fête de l'Indépendance"
+      }
+    },
+    "actions": {
+      "reset": "Réinitialiser",
+      "submit_request": "Soumettre la demande"
+    },
+    "errors": {
+      "missing_required_documents": "Documents obligatoires manquants: {{documents}}",
+      "submit_failed": "Erreur lors de la soumission."
+    },
+    "alerts": {
+      "submit_failed_title": "Soumission échouée"
+    },
+    "messages": {
+      "submitted_successfully": "Demande soumise avec succès.",
+      "created_and_submitted": "Demande créée et soumise avec succès."
+    }
+  },
+  "auth": {
+    "verify_account": "Vérifier le compte",
+    "login_success": "Connexion réussie.",
+    "logout_success": "Déconnexion effectuée.",
+    "logout_error": "Erreur pendant la déconnexion.",
+    "fields": {
+      "first_name": "Prénom",
+      "last_name": "Nom",
+      "cin": "CIN",
+      "birth_date": "Date de naissance",
+      "gender": "Genre",
+      "phone": "Téléphone",
+      "email": "Email",
+      "password": "Mot de passe",
+      "password_confirmation": "Confirmation mot de passe",
+      "code": "Code"
+    },
+    "gender": {
+      "male": "Homme",
+      "female": "Femme"
+    },
+    "actions": {
+      "resend_code": "Renvoyer code"
+    },
+    "errors": {
+      "invalid_age": "L'âge doit être strictement supérieur à 18 ans et strictement inférieur à 60 ans.",
+      "email_required": "Veuillez saisir votre email.",
+      "login_failed": "Connexion impossible.",
+      "register_failed": "Erreur lors de l'inscription.",
+      "verify_failed": "Vérification impossible.",
+      "resend_failed": "Renvoi du code impossible."
+    },
+    "alerts": {
+      "invalid_age_title": "Âge non valide",
+      "login_error_title": "Erreur de connexion",
+      "register_error_title": "Inscription impossible",
+      "verify_error_title": "Vérification échouée"
+    },
+    "messages": {
+      "account_created_with_code": "Compte créé. Code: {{code}}",
+      "account_created_requires_verification": "Compte créé. Vérification requise.",
+      "account_verified_success": "Compte vérifié avec succès.",
+      "current_code": "Code actuel: {{code}}",
+      "new_code_sent": "Nouveau code envoyé."
+    }
+  },
+  "profile": {
+    "title": "Mon profil",
+    "subtitle": "Modifiez vos informations personnelles, votre photo de profil et votre mot de passe.",
+    "sections": {
+      "photo": "Photo de profil",
+      "personal": "Informations personnelles",
+      "password": "Sécurité du compte"
+    },
+    "fields": {
+      "address": "Adresse",
+      "current_password": "Mot de passe actuel",
+      "new_password": "Nouveau mot de passe",
+      "new_password_confirmation": "Confirmation nouveau mot de passe"
+    },
+    "photo": {
+      "field_label": "Changer la photo",
+      "help": "Formats acceptés : JPG, PNG, WEBP (max 2 Mo).",
+      "no_photo": "Aucune photo enregistrée pour le moment.",
+      "alt": "Photo de profil utilisateur",
+      "selected_file": "Fichier sélectionné : {{name}}",
+      "remove_selection": "Annuler la sélection",
+      "remove_profile": "Supprimer la photo actuelle",
+      "remove_pending": "La suppression de la photo sera appliquée après enregistrement."
+    },
+    "actions": {
+      "save": "Enregistrer les modifications"
+    },
+    "messages": {
+      "updated": "Profil mis à jour avec succès."
+    },
+    "errors": {
+      "load_failed": "Impossible de charger les informations du profil.",
+      "update_failed": "Impossible de mettre à jour le profil."
+    }
+  },
+  "dashboard": {
+    "titles": {
+      "occasionnel": "Tableau de bord Occasionnel",
+      "rh": "Tableau de bord RH",
+      "president": "Tableau de bord Président"
+    },
+    "my_applications": "Mes demandes",
+    "new_application": "Nouvelle demande",
+    "notifications": "Notifications",
+    "candidate_documents": {
+      "column_title": "PDF final",
+      "not_ready": "Génération en cours",
+      "messages": {
+        "downloaded": "{{name}} téléchargé avec succès."
+      },
+      "errors": {
+        "load_failed": "Impossible de charger les documents du candidat.",
+        "download_failed": "Impossible de télécharger le document final."
+      }
+    },
+    "stats": {
+      "total_candidates": "Total candidats",
+      "submitted_applications": "Demandes soumises",
+      "approved_applications": "Demandes acceptées",
+      "pending_president": "En attente Président",
+      "total_applications": "Total demandes",
+      "pending": "En attente",
+      "approved": "Acceptées",
+      "rejected": "Refusées",
+      "submitted": "Soumises",
+      "rh_review": "En revue RH",
+      "president_review": "En revue Président",
+      "salary_total_net": "Total net salaires",
+      "pending_approvals": "Décisions en attente",
+      "total_processed": "Total traité"
+    },
+    "table": {
+      "photo": "Photo",
+      "reference": "Référence",
+      "candidate": "Candidat",
+      "function": "Fonction",
+      "administrative_period": "Période administrative",
+      "period": "Période",
+      "status": "Statut",
+      "age": "Âge",
+      "alerts": "Alertes",
+      "pdf_file": "PDF dossier",
+      "actions": "Actions"
+    },
+    "alerts": {
+      "overlap_detected": "Chevauchement détecté avec une période précédente.",
+      "mandatory_break_not_respected": "Période d'arrêt obligatoire (10 à 15 jours) non respectée après 3 mois.",
+      "mandatory_break_respected": "Période d'arrêt obligatoire respectée."
+    },
+    "rh": {
+      "applications_table_title": "Tableau des demandes",
+      "admin_documents": {
+        "title": "Documents administratifs",
+        "subtitle": "Sélectionnez un occasionnel puis son dossier pour générer et télécharger les documents.",
+        "filters": {
+          "candidate": "Occasionnel",
+          "application": "Dossier"
+        },
+        "empty_candidates": "Aucun occasionnel disponible",
+        "empty_applications": "Aucun dossier disponible",
+        "status": {
+          "generated": "Document généré",
+          "not_generated": "Document non généré"
+        },
+        "actions": {
+          "generate": "Générer",
+          "regenerate": "Régénérer"
+        },
+        "messages": {
+          "generated": "{{name}} généré avec succès.",
+          "downloaded": "{{name}} téléchargé avec succès."
+        },
+        "errors": {
+          "load_failed": "Impossible de charger les documents administratifs.",
+          "generate_failed": "Impossible de générer ce document.",
+          "download_failed": "Impossible de télécharger ce document."
+        }
+      },
+      "actions": {
+        "send_to_president": "Vers Président",
+        "accept": "Accepter",
+        "reject": "Refuser",
+        "finalize_accepted": "Finaliser acceptée",
+        "finalize_rejected": "Finaliser refusée",
+        "confirm_transfer": "Oui, transférer",
+        "confirm_reject": "Confirmer le refus",
+        "finalize": "Finaliser"
+      },
+      "modals": {
+        "transfer_title": "Transférer au Président ?",
+        "transfer_text": "Ce dossier sera envoyé pour décision Président.",
+        "finalize_reject_title": "Finaliser en refus",
+        "rh_note_optional": "Motif / note RH (optionnel)",
+        "comment_placeholder": "Ajoutez un commentaire...",
+        "finalize_accept_title": "Finaliser en acceptation",
+        "start_date_label": "Date début (YYYY-MM-DD)",
+        "end_date_label": "Date fin (YYYY-MM-DD)",
+        "assignment_location_label": "Lieu affectation",
+        "assignment_location_placeholder": "Service central",
+        "assignment_service_label": "Fonction (optionnel)",
+        "assignment_service_placeholder": "Agent entretien",
+        "rh_note_placeholder": "Commentaire final RH"
+      },
+      "validation": {
+        "dates_location_required": "Date début, date fin et lieu affectation sont obligatoires."
+      },
+      "messages": {
+        "sent_to_president": "Dossier transféré au Président.",
+        "finalized_approved": "Dossier validé et finalisé.",
+        "finalized_rejected": "Dossier finalisé en refus."
+      },
+      "errors": {
+        "load_queue_failed": "Impossible de charger la file RH.",
+        "transfer_failed": "Erreur lors du transfert.",
+        "finalize_failed": "Erreur lors de la finalisation."
+      },
+      "alerts": {
+        "transfer_failed_title": "Transfert échoué",
+        "finalize_failed_title": "Finalisation échouée"
+      }
+    },
+    "president": {
+      "pending_files": "Dossiers en attente",
+      "actions": {
+        "approve": "Approuver",
+        "reject": "Rejeter"
+      },
+      "modals": {
+        "decide_title": "{{action}} ce dossier ?",
+        "comment_optional": "Commentaire (optionnel)",
+        "comment_placeholder": "Ajouter un commentaire..."
+      },
+      "messages": {
+        "approved": "Dossier approuvé par le Président.",
+        "rejected": "Dossier rejeté par le Président."
+      },
+      "errors": {
+        "load_pending_failed": "Impossible de charger les dossiers Président.",
+        "decision_failed": "Décision impossible."
+      },
+      "alerts": {
+        "decision_error_title": "Erreur de décision"
+      },
+      "processed": {
+        "accepted_table_title": "Dossiers acceptés",
+        "rejected_table_title": "Dossiers refusés",
+        "total_table_title": "Tous les dossiers traités",
+        "empty": "Aucun dossier à afficher pour ce filtre."
+      },
+      "staff": {
+        "title": "Gestion RH / Adjoint RH",
+        "table_title": "Utilisateurs RH et Adjoint RH",
+        "columns": {
+          "photo": "Photo",
+          "full_name": "Nom complet",
+          "role": "Rôle",
+          "status": "Statut"
+        },
+        "photo_alt": "Photo de profil de {{name}}",
+        "fields": {
+          "role": "Rôle",
+          "locale": "Langue",
+          "active": "Activation",
+          "new_password_optional": "Nouveau mot de passe (optionnel)"
+        },
+        "placeholders": {
+          "password_optional": "Laisser vide pour conserver le mot de passe"
+        },
+        "actions": {
+          "add": "Ajouter",
+          "save": "Enregistrer",
+          "edit": "Modifier",
+          "delete": "Supprimer"
+        },
+        "modals": {
+          "add_title": "Ajouter un RH / Adjoint RH",
+          "edit_title": "Modifier RH / Adjoint RH",
+          "delete_title": "Supprimer cet utilisateur ?",
+          "delete_text": "Cette action supprimera définitivement le compte de {{name}}."
+        },
+        "validation": {
+          "required_fields": "Merci de remplir tous les champs obligatoires.",
+          "password_required": "Le mot de passe est obligatoire.",
+          "password_min": "Le mot de passe doit contenir au moins 8 caractères."
+        },
+        "messages": {
+          "added": "Utilisateur ajouté avec succès.",
+          "updated": "Utilisateur mis à jour avec succès.",
+          "deleted": "Utilisateur supprimé avec succès."
+        },
+        "errors": {
+          "load_failed": "Impossible de charger les utilisateurs RH.",
+          "add_failed": "Impossible d'ajouter cet utilisateur.",
+          "update_failed": "Impossible de modifier cet utilisateur.",
+          "delete_failed": "Impossible de supprimer cet utilisateur."
+        }
+      }
+    }
+  },
+  "documents": {
+    "types": {
+      "cin": "Copie CIN",
+      "cv": "CV",
+      "lettre_demande": "Lettre de demande",
+      "photo": "Photo (PDF)",
+      "permis": "Permis (optionnel)",
+      "diplome": "Diplôme/Certificat (optionnel)",
+      "engagement": "Acte d'engagement",
+      "prise_service": "Attestation de prise de service",
+      "decision": "Décision administrative",
+      "affectation": "Document d'affectation",
+      "dossier_summary": "Résumé du dossier"
+    },
+    "short": {
+      "cin": "CIN",
+      "cv": "CV",
+      "lettre_demande": "LETTRE",
+      "photo": "PHOTO",
+      "permis": "PERMIS",
+      "diplome": "DIPLOME"
+    },
+    "view": "Consulter",
+    "download": "Télécharger",
+    "view_document": "Consulter le document",
+    "download_document": "Télécharger le document",
+    "view_document_named": "Consulter {{name}}",
+    "download_document_named": "Télécharger {{name}}",
+    "previewing": "Consultation: {{name}}",
+    "downloaded": "Téléchargement: {{name}}",
+    "download_error": "Erreur lors du téléchargement du PDF."
+  },
+  "status_labels": {
+    "pending": "En attente",
+    "accepted": "Acceptée",
+    "rejected": "Refusée",
+    "sent_to_president": "Transmise au Président",
+    "validated_by_president": "Validée par le Président",
+    "rejected_by_president": "Rejetée par le Président",
+    "incomplete_file": "Dossier incomplet",
+    "document_valid": "Document validé",
+    "document_rejected": "Document rejeté"
+  },
+  "roles": {
+    "occasionnel": "Occasionnel",
+    "rh": "RH",
+    "naib_rh": "Adjoint RH",
+    "president": "Président",
+    "administrator": "Administrateur"
+  },
+  "not_found": {
+    "message": "Page introuvable.",
+    "back_home": "Retour accueil"
+  },
+  "notifications": {
+    "code_verification_title": "Code de vérification",
+    "new_code_verification_title": "Nouveau code de vérification",
+    "president_decision_title": "Décision du Président",
+    "application_accepted_title": "Demande acceptée",
+    "application_rejected_title": "Demande rejetée",
+    "code_verification_body": "Votre code de vérification est: {{code}}",
+    "new_code_verification_body": "Votre nouveau code est: {{code}}",
+    "president_decision_accepted_body": "Votre dossier a été acceptée par le Président et transmis au RH pour finalisation.",
+    "president_decision_rejected_body": "Votre dossier a été rejetée par le Président et transmis au RH pour finalisation.",
+    "application_accepted_body": "Votre demande a été acceptée et finalisée par l'administration RH.",
+    "application_rejected_body": "Votre demande a été rejetée après décision finale."
+  },
+  "server_messages": {
+    "missing_required_documents": "Documents obligatoires manquants.",
+    "application_submitted_successfully": "Demande soumise avec succès.",
+    "verification_code_not_found": "Code de vérification introuvable.",
+    "verification_code_expired": "Code de vérification expiré.",
+    "maximum_verification_attempts_reached": "Nombre maximal de tentatives de vérification atteint.",
+    "invalid_verification_code": "Code de vérification invalide.",
+    "account_verified_successfully": "Compte vérifié avec succès.",
+    "unauthorized_role": "Rôle non autorisé.",
+    "access_denied_for_role": "Accès refusé pour ce rôle.",
+    "invalid_age_range": "L'âge doit être strictement supérieur à 18 ans et strictement inférieur à 60 ans.",
+    "account_created_verify_email": "Compte créé. Vérifiez votre email avec le code envoyé.",
+    "new_code_sent": "Nouveau code envoyé.",
+    "invalid_credentials": "Identifiants invalides.",
+    "account_not_active": "Compte non activé. Vérifiez votre code de confirmation.",
+    "logout_success": "Déconnexion effectuée.",
+    "candidate_profile_missing": "Profil candidat introuvable.",
+    "application_created_draft": "Demande créée en brouillon.",
+    "access_denied": "Accès refusé.",
+    "file_not_found": "Fichier introuvable.",
+    "document_uploaded_success": "Document téléversé avec succès.",
+    "document_deleted": "Document supprimé.",
+    "document_generated": "Document généré.",
+    "application_not_waiting_president_decision": "Cette demande n'est pas en attente de décision Président.",
+    "decision_saved": "Décision enregistrée.",
+    "document_mismatch": "Document non correspondant.",
+    "document_validation_saved": "Validation du document enregistrée.",
+    "rh_cannot_validate_age": "RH ne peut pas valider un candidat hors limite d'âge (strictement entre 18 et 60 ans).",
+    "application_sent_to_president": "Demande transférée au Président.",
+    "final_decision_must_match_president": "La décision finale doit correspondre à la décision du Président.",
+    "rh_process_finalized": "Processus RH finalisé.",
+    "notification_marked_read": "Notification marquée comme lue.",
+    "staff_created": "Utilisateur RH créé avec succès.",
+    "staff_updated": "Utilisateur RH mis à jour avec succès.",
+    "staff_deleted": "Utilisateur RH supprimé avec succès.",
+    "staff_not_allowed": "Utilisateur non autorisé dans cette gestion.",
+    "profile_updated_successfully": "Profil mis à jour avec succès.",
+    "current_password_incorrect": "Le mot de passe actuel est incorrect.",
+    "profile_photo_not_found": "Photo de profil introuvable."
+  }
+}

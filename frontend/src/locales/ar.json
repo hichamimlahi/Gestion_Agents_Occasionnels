@@ -1,0 +1,563 @@
+﻿{
+  "brand": {
+    "title": "تدبير ملفات الأعوان العرضيين",
+    "commune": "جماعة العرائش"
+  },
+  "language": {
+    "label": "اللغة",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "apply": "إيداع طلب",
+    "dashboard": "لوحة التحكم",
+    "profile": "ملفي الشخصي",
+    "rh_queue": "ملفات الموارد البشرية",
+    "rh_admin_documents": "الوثائق الإدارية",
+    "president_pending": "الملفات قيد الانتظار",
+    "president_staff": "إدارة الموارد البشرية",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "تسجيل الخروج"
+  },
+  "footer": {
+    "address_title": "العنوان",
+    "address_line": "شارع إيريس، المغرب الجديد، العرائش.",
+    "maps": "عرض على خرائط Google"
+  },
+  "a11y": {
+    "commune_logo": "شعار جماعة العرائش",
+    "commune_logo_clean": "الشعار الرسمي لجماعة العرائش"
+  },
+  "common": {
+    "loading": "جارٍ التحميل",
+    "submit": "تأكيد",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "processing": "جارٍ المعالجة",
+    "not_available": "-",
+    "active": "مفعل",
+    "inactive": "غير مفعل",
+    "understood": "مفهوم",
+    "generic_error": "حدث خطأ غير متوقع.",
+    "generic_info": "تم تحديث المعلومات."
+  },
+  "home": {
+    "hero": {
+      "title": "المنصة الرسمية لتدبير ملفات الأعوان العرضيين",
+      "subtitle": "تتبع الطلبات ومراجعة الموارد البشرية وقرار الرئيس داخل واجهة حديثة وآمنة."
+    },
+    "cta": {
+      "apply": "إيداع طلب",
+      "login": "تسجيل الدخول"
+    },
+    "steps": {
+      "title": "كيف تعمل المنصة",
+      "items": [
+        "إنشاء الحساب",
+        "إكمال ملف PDF",
+        "مراجعة الموارد البشرية",
+        "قرار الرئيس",
+        "إصدار الوثائق الإدارية"
+      ]
+    },
+    "faq": {
+      "title": "أسئلة متكررة",
+      "items": [
+        {
+          "q": "من يمكنه إيداع طلب؟",
+          "a": "كل شخص يتوفر على حساب مفعل."
+        },
+        {
+          "q": "ما هي الصيغ المقبولة؟",
+          "a": "يتم قبول ملفات PDF فقط لجميع الوثائق."
+        },
+        {
+          "q": "كيف يتم احتساب الأجر؟",
+          "a": "احتساب ثابت: الخام = عدد الأيام × 97,44 درهم، RCAR = عدد الأيام × 5,85 درهم، الصافي = عدد الأيام × 91,59 درهم."
+        }
+      ]
+    },
+    "map": {
+      "title": "موقع جماعة العرائش",
+      "text": "يمكنكم الاطلاع على الموقع الإداري الرسمي عبر الخريطة.",
+      "open_link": "فتح في خرائط Google",
+      "iframe_title": "جماعة العرائش - خرائط Google"
+    },
+    "admin": {
+      "title": "معلومات إدارية",
+      "period_info": "الفترة التقديرية {{start}} - {{end}} (حوالي {{days}} يوم عمل بعد استثناء يومي الراحة الأسبوعية)."
+    },
+    "legal_documents": {
+      "title": "تحميل الوثائق القانونية",
+      "subtitle": "يمكنكم تحميل النسخ المتاحة بالفرنسية أو العربية.",
+      "loi_113_14": "القانون 113.14",
+      "bulletin_officiel": "النشرة الرسمية",
+      "fp31": "الوظيفة العمومية",
+      "languages": {
+        "fr": "الفرنسية",
+        "ar": "العربية"
+      },
+      "pending_text": "اختَر النسخة التي تريد تحميلها.",
+      "download_lang": "تحميل ({{lang}})",
+      "download_placeholder": "متوفر قريباً",
+      "download_placeholder_lang": "{{lang}} - متوفر قريباً"
+    }
+  },
+  "application_form": {
+    "title": "إيداع طلب عامل عرضي",
+    "intro": "املأ معلومات الطلب ثم أرفق الوثائق بصيغة PDF. رخصة السياقة اختيارية.",
+    "request_section_title": "معلومات الطلب",
+    "documents_section_title": "الوثائق المرفقة (PDF)",
+    "fields": {
+      "function": "المهمة",
+      "period": "الفترة"
+    },
+    "placeholders": {
+      "function": "مثال: عامل نظافة، بستنة، استقبال...",
+      "period": "مثال: صيف 2026، الربع الثالث..."
+    },
+    "notes": {
+      "admin_sets_dates": "تاريخ البداية والنهاية يحدده قسم الموارد البشرية بعد المصادقة."
+    },
+    "periods": {
+      "select_placeholder": "اختر فترة سنة 2026",
+      "selected_summary": "الفترة المختارة: {{start}} - {{end}} | {{days}} يوم عمل.",
+      "period_result": "الفترة {{start}} - {{end}}: {{days}} يوم عمل",
+      "removed_holidays_title": "العطل الرسمية المستثناة:",
+      "no_removed_holidays": "لا توجد عطلة رسمية مستثناة.",
+      "weekend_overlap_note": "عطل صادفت نهاية الأسبوع (مستثناة مسبقاً): {{holidays}}.",
+      "labels": {
+        "p1": "الفترة 1: يناير، فبراير، مارس",
+        "p2": "الفترة 2: أبريل، ماي، يونيو",
+        "p3": "الفترة 3: يوليوز، غشت، شتنبر",
+        "p4": "الفترة 4: أكتوبر، نونبر، دجنبر"
+      },
+      "holidays": {
+        "new_year": "رأس السنة الميلادية",
+        "amazigh_new_year": "رأس السنة الأمازيغية",
+        "eid_fitr_day_1": "عيد الفطر (اليوم الأول)",
+        "eid_fitr_day_2": "عيد الفطر (اليوم الثاني)",
+        "labour_day": "عيد الشغل",
+        "eid_adha_day_1": "عيد الأضحى (اليوم الأول)",
+        "eid_adha_day_2": "عيد الأضحى (اليوم الثاني)",
+        "hijri_new_year": "رأس السنة الهجرية",
+        "throne_day": "عيد العرش",
+        "oued_eddahab": "ذكرى وادي الذهب",
+        "king_revolution": "ذكرى ثورة الملك والشعب",
+        "youth_day": "عيد الشباب",
+        "mawlid": "عيد المولد النبوي",
+        "green_march": "ذكرى المسيرة الخضراء",
+        "independence_day": "عيد الاستقلال"
+      }
+    },
+    "actions": {
+      "reset": "إعادة التعيين",
+      "submit_request": "إرسال الطلب"
+    },
+    "errors": {
+      "missing_required_documents": "الوثائق الإلزامية غير مكتملة: {{documents}}",
+      "submit_failed": "حدث خطأ أثناء إرسال الطلب."
+    },
+    "alerts": {
+      "submit_failed_title": "فشل الإرسال"
+    },
+    "messages": {
+      "submitted_successfully": "تم إرسال الطلب بنجاح.",
+      "created_and_submitted": "تم إنشاء الطلب وإرساله بنجاح."
+    }
+  },
+  "auth": {
+    "verify_account": "تفعيل الحساب",
+    "login_success": "تم تسجيل الدخول بنجاح.",
+    "logout_success": "تم تسجيل الخروج بنجاح.",
+    "logout_error": "حدث خطأ أثناء تسجيل الخروج.",
+    "fields": {
+      "first_name": "الاسم الشخصي",
+      "last_name": "الاسم العائلي",
+      "cin": "بطاقة التعريف الوطنية",
+      "birth_date": "تاريخ الازدياد",
+      "gender": "الجنس",
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "password_confirmation": "تأكيد كلمة المرور",
+      "code": "الرمز"
+    },
+    "gender": {
+      "male": "ذكر",
+      "female": "أنثى"
+    },
+    "actions": {
+      "resend_code": "إعادة إرسال الرمز"
+    },
+    "errors": {
+      "invalid_age": "يجب أن يكون السن أكبر من 18 سنة وأقل من 60 سنة.",
+      "email_required": "يرجى إدخال البريد الإلكتروني.",
+      "login_failed": "تعذر تسجيل الدخول.",
+      "register_failed": "حدث خطأ أثناء إنشاء الحساب.",
+      "verify_failed": "تعذر التحقق من الحساب.",
+      "resend_failed": "تعذر إعادة إرسال الرمز."
+    },
+    "alerts": {
+      "invalid_age_title": "سن غير صالح",
+      "login_error_title": "خطأ في تسجيل الدخول",
+      "register_error_title": "تعذر إنشاء الحساب",
+      "verify_error_title": "فشل التحقق"
+    },
+    "messages": {
+      "account_created_with_code": "تم إنشاء الحساب. الرمز: {{code}}",
+      "account_created_requires_verification": "تم إنشاء الحساب. يلزم التحقق.",
+      "account_verified_success": "تم تفعيل الحساب بنجاح.",
+      "current_code": "الرمز الحالي: {{code}}",
+      "new_code_sent": "تم إرسال رمز جديد."
+    }
+  },
+  "profile": {
+    "title": "ملفي الشخصي",
+    "subtitle": "يمكنكم تعديل المعلومات الشخصية وصورة الملف الشخصي وكلمة المرور.",
+    "sections": {
+      "photo": "صورة الملف الشخصي",
+      "personal": "المعلومات الشخصية",
+      "password": "أمان الحساب"
+    },
+    "fields": {
+      "address": "العنوان",
+      "current_password": "كلمة المرور الحالية",
+      "new_password": "كلمة المرور الجديدة",
+      "new_password_confirmation": "تأكيد كلمة المرور الجديدة"
+    },
+    "photo": {
+      "field_label": "تغيير الصورة",
+      "help": "الصيغ المقبولة: JPG و PNG و WEBP (الحد الأقصى 2MB).",
+      "no_photo": "لا توجد صورة مسجلة حالياً.",
+      "alt": "صورة الملف الشخصي للمستخدم",
+      "selected_file": "الملف المختار: {{name}}",
+      "remove_selection": "إلغاء الاختيار",
+      "remove_profile": "حذف الصورة الحالية",
+      "remove_pending": "سيتم حذف الصورة بعد حفظ التعديلات."
+    },
+    "actions": {
+      "save": "حفظ التعديلات"
+    },
+    "messages": {
+      "updated": "تم تحديث الملف الشخصي بنجاح."
+    },
+    "errors": {
+      "load_failed": "تعذر تحميل معلومات الملف الشخصي.",
+      "update_failed": "تعذر تحديث الملف الشخصي."
+    }
+  },
+  "dashboard": {
+    "titles": {
+      "occasionnel": "لوحة تحكم العامل العرضي",
+      "rh": "لوحة تحكم الموارد البشرية",
+      "president": "لوحة تحكم الرئيس"
+    },
+    "my_applications": "طلباتي",
+    "new_application": "طلب جديد",
+    "notifications": "الإشعارات",
+    "candidate_documents": {
+      "column_title": "PDF النهائي",
+      "not_ready": "قيد الإنشاء",
+      "messages": {
+        "downloaded": "تم تحميل {{name}} بنجاح."
+      },
+      "errors": {
+        "load_failed": "تعذر تحميل وثائق العامل العرضي.",
+        "download_failed": "تعذر تحميل الوثيقة النهائية."
+      }
+    },
+    "stats": {
+      "total_candidates": "إجمالي المرشحين",
+      "submitted_applications": "الطلبات المرسلة",
+      "approved_applications": "الطلبات المقبولة",
+      "pending_president": "في انتظار الرئيس",
+      "total_applications": "إجمالي الطلبات",
+      "pending": "قيد الانتظار",
+      "approved": "مقبولة",
+      "rejected": "مرفوضة",
+      "submitted": "مرسلة",
+      "rh_review": "قيد مراجعة الموارد البشرية",
+      "president_review": "قيد مراجعة الرئيس",
+      "salary_total_net": "إجمالي صافي الأجور",
+      "pending_approvals": "القرارات المعلقة",
+      "total_processed": "إجمالي المعالَج"
+    },
+    "table": {
+      "photo": "الصورة",
+      "reference": "المرجع",
+      "candidate": "المرشح",
+      "function": "المهمة",
+      "administrative_period": "الفترة الإدارية",
+      "period": "الفترة",
+      "status": "الحالة",
+      "age": "العمر",
+      "alerts": "تنبيهات",
+      "pdf_file": "ملف PDF",
+      "actions": "إجراءات"
+    },
+    "alerts": {
+      "overlap_detected": "تم رصد تداخل مع فترة عمل سابقة.",
+      "mandatory_break_not_respected": "لم يتم احترام فترة التوقف الإلزامية (10 إلى 15 يوماً) بعد 3 أشهر.",
+      "mandatory_break_respected": "تم احترام فترة التوقف الإلزامية."
+    },
+    "rh": {
+      "applications_table_title": "جدول الطلبات",
+      "admin_documents": {
+        "title": "الوثائق الإدارية",
+        "subtitle": "اختر العامل العرضي ثم ملفه من أجل إنشاء الوثائق وتحميلها.",
+        "filters": {
+          "candidate": "العامل العرضي",
+          "application": "الملف"
+        },
+        "empty_candidates": "لا يوجد عامل عرضي متاح",
+        "empty_applications": "لا يوجد ملف متاح",
+        "status": {
+          "generated": "تم إنشاء الوثيقة",
+          "not_generated": "الوثيقة غير منشأة"
+        },
+        "actions": {
+          "generate": "إنشاء",
+          "regenerate": "إعادة الإنشاء"
+        },
+        "messages": {
+          "generated": "تم إنشاء {{name}} بنجاح.",
+          "downloaded": "تم تحميل {{name}} بنجاح."
+        },
+        "errors": {
+          "load_failed": "تعذر تحميل الوثائق الإدارية.",
+          "generate_failed": "تعذر إنشاء هذه الوثيقة.",
+          "download_failed": "تعذر تحميل هذه الوثيقة."
+        }
+      },
+      "actions": {
+        "send_to_president": "إحالة إلى الرئيس",
+        "accept": "قبول",
+        "reject": "رفض",
+        "finalize_accepted": "إنهاء بالقبول",
+        "finalize_rejected": "إنهاء بالرفض",
+        "confirm_transfer": "نعم، إحالة",
+        "confirm_reject": "تأكيد الرفض",
+        "finalize": "إنهاء"
+      },
+      "modals": {
+        "transfer_title": "إحالة إلى الرئيس؟",
+        "transfer_text": "سيتم إرسال هذا الملف إلى الرئيس لاتخاذ القرار.",
+        "finalize_reject_title": "إنهاء بالرفض",
+        "rh_note_optional": "سبب / ملاحظة الموارد البشرية (اختياري)",
+        "comment_placeholder": "أضف تعليقاً...",
+        "finalize_accept_title": "إنهاء بالقبول",
+        "start_date_label": "تاريخ البداية (YYYY-MM-DD)",
+        "end_date_label": "تاريخ النهاية (YYYY-MM-DD)",
+        "assignment_location_label": "مكان التعيين",
+        "assignment_location_placeholder": "المصلحة المركزية",
+        "assignment_service_label": "الوظيفة (اختياري)",
+        "assignment_service_placeholder": "عامل نظافة",
+        "rh_note_placeholder": "تعليق نهائي للموارد البشرية"
+      },
+      "validation": {
+        "dates_location_required": "تاريخ البداية وتاريخ النهاية ومكان التعيين حقول إلزامية."
+      },
+      "messages": {
+        "sent_to_president": "تمت إحالة الملف إلى الرئيس.",
+        "finalized_approved": "تمت المصادقة على الملف وإنهاؤه.",
+        "finalized_rejected": "تم إنهاء الملف بالرفض."
+      },
+      "errors": {
+        "load_queue_failed": "تعذر تحميل ملفات الموارد البشرية.",
+        "transfer_failed": "حدث خطأ أثناء الإحالة.",
+        "finalize_failed": "حدث خطأ أثناء الإنهاء."
+      },
+      "alerts": {
+        "transfer_failed_title": "فشل الإحالة",
+        "finalize_failed_title": "فشل الإنهاء"
+      }
+    },
+    "president": {
+      "pending_files": "الملفات قيد الانتظار",
+      "actions": {
+        "approve": "قبول",
+        "reject": "رفض"
+      },
+      "modals": {
+        "decide_title": "{{action}} هذا الملف؟",
+        "comment_optional": "تعليق (اختياري)",
+        "comment_placeholder": "أضف تعليقاً..."
+      },
+      "messages": {
+        "approved": "تم قبول الملف من طرف الرئيس.",
+        "rejected": "تم رفض الملف من طرف الرئيس."
+      },
+      "errors": {
+        "load_pending_failed": "تعذر تحميل ملفات الرئيس.",
+        "decision_failed": "تعذر تسجيل القرار."
+      },
+      "alerts": {
+        "decision_error_title": "خطأ في القرار"
+      },
+      "processed": {
+        "accepted_table_title": "الملفات المقبولة",
+        "rejected_table_title": "الملفات المرفوضة",
+        "total_table_title": "جميع الملفات المعالجة",
+        "empty": "لا توجد ملفات مطابقة لهذا الفلتر."
+      },
+      "staff": {
+        "title": "تدبير مستخدمي الموارد البشرية / مساعد الموارد البشرية",
+        "table_title": "جدول مستخدمي الموارد البشرية ومساعد الموارد البشرية",
+        "columns": {
+          "photo": "الصورة",
+          "full_name": "الاسم الكامل",
+          "role": "الدور",
+          "status": "الحالة"
+        },
+        "photo_alt": "صورة الملف الشخصي لـ {{name}}",
+        "fields": {
+          "role": "الدور",
+          "locale": "اللغة",
+          "active": "تفعيل الحساب",
+          "new_password_optional": "كلمة مرور جديدة (اختياري)"
+        },
+        "placeholders": {
+          "password_optional": "اتركه فارغاً للإبقاء على كلمة المرور الحالية"
+        },
+        "actions": {
+          "add": "إضافة",
+          "save": "حفظ",
+          "edit": "تعديل",
+          "delete": "حذف"
+        },
+        "modals": {
+          "add_title": "إضافة RH / مساعد الموارد البشرية",
+          "edit_title": "تعديل RH / مساعد الموارد البشرية",
+          "delete_title": "حذف هذا المستخدم؟",
+          "delete_text": "سيتم حذف حساب {{name}} نهائياً."
+        },
+        "validation": {
+          "required_fields": "يرجى ملء جميع الحقول الإلزامية.",
+          "password_required": "كلمة المرور مطلوبة.",
+          "password_min": "كلمة المرور يجب أن تحتوي على 8 أحرف على الأقل."
+        },
+        "messages": {
+          "added": "تمت إضافة المستخدم بنجاح.",
+          "updated": "تم تحديث المستخدم بنجاح.",
+          "deleted": "تم حذف المستخدم بنجاح."
+        },
+        "errors": {
+          "load_failed": "تعذر تحميل مستخدمي الموارد البشرية.",
+          "add_failed": "تعذر إضافة المستخدم.",
+          "update_failed": "تعذر تعديل المستخدم.",
+          "delete_failed": "تعذر حذف المستخدم."
+        }
+      }
+    }
+  },
+  "documents": {
+    "types": {
+      "cin": "نسخة بطاقة التعريف",
+      "cv": "السيرة الذاتية",
+      "lettre_demande": "طلب خطي",
+      "photo": "صورة (PDF)",
+      "permis": "رخصة السياقة (اختياري)",
+      "diplome": "دبلوم/شهادة (اختياري)",
+      "engagement": "عقد الالتزام",
+      "prise_service": "شهادة مباشرة العمل",
+      "decision": "قرار إداري",
+      "affectation": "وثيقة التعيين",
+      "dossier_summary": "ملخص الملف"
+    },
+    "short": {
+      "cin": "CIN",
+      "cv": "CV",
+      "lettre_demande": "طلب",
+      "photo": "صورة",
+      "permis": "رخصة",
+      "diplome": "دبلوم"
+    },
+    "view": "عرض",
+    "download": "تحميل",
+    "view_document": "عرض الوثيقة",
+    "download_document": "تحميل الوثيقة",
+    "view_document_named": "عرض {{name}}",
+    "download_document_named": "تحميل {{name}}",
+    "previewing": "جاري عرض: {{name}}",
+    "downloaded": "تم التحميل: {{name}}",
+    "download_error": "حدث خطأ أثناء تحميل ملف PDF."
+  },
+  "status_labels": {
+    "pending": "قيد الانتظار",
+    "accepted": "مقبولة",
+    "rejected": "مرفوضة",
+    "sent_to_president": "محالة إلى الرئيس",
+    "validated_by_president": "مصادق عليها من طرف الرئيس",
+    "rejected_by_president": "مرفوضة من طرف الرئيس",
+    "incomplete_file": "ملف غير مكتمل",
+    "document_valid": "وثيقة مصادق عليها",
+    "document_rejected": "وثيقة مرفوضة"
+  },
+  "roles": {
+    "occasionnel": "عامل عرضي",
+    "rh": "الموارد البشرية",
+    "naib_rh": "مساعد الموارد البشرية",
+    "president": "الرئيس",
+    "administrator": "المدير"
+  },
+  "not_found": {
+    "message": "الصفحة غير موجودة.",
+    "back_home": "العودة للرئيسية"
+  },
+  "notifications": {
+    "code_verification_title": "رمز التحقق",
+    "new_code_verification_title": "رمز تحقق جديد",
+    "president_decision_title": "قرار الرئيس",
+    "application_accepted_title": "طلب مقبول",
+    "application_rejected_title": "طلب مرفوض",
+    "code_verification_body": "رمز التحقق الخاص بك هو: {{code}}",
+    "new_code_verification_body": "رمزك الجديد هو: {{code}}",
+    "president_decision_accepted_body": "تم قبول ملفكم من طرف الرئيس وإحالته إلى الموارد البشرية من أجل الإنهاء.",
+    "president_decision_rejected_body": "تم رفض ملفكم من طرف الرئيس وإحالته إلى الموارد البشرية من أجل الإنهاء.",
+    "application_accepted_body": "تم قبول طلبكم وإنهاؤه من طرف إدارة الموارد البشرية.",
+    "application_rejected_body": "تم رفض طلبكم بعد القرار النهائي."
+  },
+  "server_messages": {
+    "missing_required_documents": "الوثائق الإلزامية غير مكتملة.",
+    "application_submitted_successfully": "تم إرسال الطلب بنجاح.",
+    "verification_code_not_found": "رمز التحقق غير موجود.",
+    "verification_code_expired": "انتهت صلاحية رمز التحقق.",
+    "maximum_verification_attempts_reached": "تم بلوغ الحد الأقصى لمحاولات التحقق.",
+    "invalid_verification_code": "رمز التحقق غير صحيح.",
+    "account_verified_successfully": "تم تفعيل الحساب بنجاح.",
+    "unauthorized_role": "الدور غير مصرح به.",
+    "access_denied_for_role": "لا تملكون صلاحية لهذا الدور.",
+    "invalid_age_range": "يجب أن يكون السن أكبر من 18 سنة وأقل من 60 سنة.",
+    "account_created_verify_email": "تم إنشاء الحساب. يرجى التحقق من البريد الإلكتروني عبر الرمز المرسل.",
+    "new_code_sent": "تم إرسال رمز جديد.",
+    "invalid_credentials": "بيانات الدخول غير صحيحة.",
+    "account_not_active": "الحساب غير مفعل. يرجى التحقق من رمز التأكيد.",
+    "logout_success": "تم تسجيل الخروج بنجاح.",
+    "candidate_profile_missing": "ملف المرشح غير موجود.",
+    "application_created_draft": "تم إنشاء الطلب كمسودة.",
+    "access_denied": "تم رفض الوصول.",
+    "file_not_found": "الملف غير موجود.",
+    "document_uploaded_success": "تم رفع الوثيقة بنجاح.",
+    "document_deleted": "تم حذف الوثيقة.",
+    "document_generated": "تم إنشاء الوثيقة.",
+    "application_not_waiting_president_decision": "هذا الطلب ليس في انتظار قرار الرئيس.",
+    "decision_saved": "تم حفظ القرار.",
+    "document_mismatch": "الوثيقة غير مطابقة.",
+    "document_validation_saved": "تم حفظ التحقق من الوثيقة.",
+    "rh_cannot_validate_age": "لا يمكن للموارد البشرية المصادقة على مرشح خارج الحد العمري (بين 18 و60 سنة حصراً).",
+    "application_sent_to_president": "تمت إحالة الطلب إلى الرئيس.",
+    "final_decision_must_match_president": "يجب أن يطابق القرار النهائي قرار الرئيس.",
+    "rh_process_finalized": "تم إنهاء مسطرة الموارد البشرية.",
+    "notification_marked_read": "تم وضع علامة مقروء على الإشعار.",
+    "staff_created": "تم إنشاء مستخدم RH بنجاح.",
+    "staff_updated": "تم تحديث مستخدم RH بنجاح.",
+    "staff_deleted": "تم حذف مستخدم RH بنجاح.",
+    "staff_not_allowed": "هذا المستخدم غير مسموح ضمن هذه الإدارة.",
+    "profile_updated_successfully": "تم تحديث الملف الشخصي بنجاح.",
+    "current_password_incorrect": "كلمة المرور الحالية غير صحيحة.",
+    "profile_photo_not_found": "صورة الملف الشخصي غير موجودة."
+  }
+}
